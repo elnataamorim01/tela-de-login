@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../image/3387682.jpg');    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.356), #3b5f77);
+    height: 500px;
+    width: 450px;
+
+    h2{
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .formLogin{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+        align-items: center;
+        
+        input{
+            height: 50px;
+            padding-left: 10px;
+            width: 100%;
+            background-color: #0000004d;
+            border: none;
+            color: #fff;
+
+            &::placeholder{
+                color: #ffffffc2; 
+            }
+        }
+
+        #userPassword{
+            margin-top: 20px;
+        }
+
+        #loginBtn{
+            height: 50px;
+            margin-top: 30px;
+            width: 90%;
+            cursor: pointer;
+            background-color: #b6c0bb;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+            border: none;
+
+            &:hover{
+                background-color: #929c97;  
+            }
+        }
+
+        h4{
+            font-weight: 400;
+            margin-top: 20px;
+            color: #fff;
+            text-align: center;
+            
+            a{
+                color: #fff;
+            }
+        }
+    }
+
+    .formCadastro{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+        align-items: center;  
+        
+        input{
+            height: 50px;
+            padding-left: 10px;
+            width: 188%;
+            background-color: #0000004d; 
+            border: none;
+            color: #fff;
+
+            &::placeholder{
+                color: #ffffffc2;  
+            }
+        }
+
+        #newEmail{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #cadastrarBtn{
+            height: 50px;
+            margin-top: 30px;
+            width: 170%;
+            cursor: pointer;
+            background-color: #b6c0bb;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+            border: none;
+
+            &:hover{
+                background-color: #929c97;  
+            }
+        }
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    #registrarBtn{
+        height: 50px;
+        width: 77%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3B5F77;
+        color: #fff;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        border: none;
+
+        &:hover{
+            background-color: #345469;
+        }
+    }
+
+    #voltarBtn{
+        height: 50px;
+        width: 74%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        background-color: #3B5F77;
+        color: #fff;   
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        border: none;
+
+        &:hover{
+            background-color: #345469;
+        }  
+    }
+}

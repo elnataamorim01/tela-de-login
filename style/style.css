@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../image/3387682.jpg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.356), #3b5f77);
+  height: 500px;
+  width: 450px;
+}
+.container h2 {
+  font-weight: 300;
+  color: #fff;
+}
+.container .formLogin {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+}
+.container .formLogin input {
+  height: 50px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  border: none;
+  color: #fff;
+}
+.container .formLogin input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7607843137);
+}
+.container .formLogin input::placeholder {
+  color: rgba(255, 255, 255, 0.7607843137);
+}
+.container .formLogin #userPassword {
+  margin-top: 20px;
+}
+.container .formLogin #loginBtn {
+  height: 50px;
+  margin-top: 30px;
+  width: 90%;
+  cursor: pointer;
+  background-color: #b6c0bb;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container .formLogin #loginBtn:hover {
+  background-color: #929c97;
+}
+.container .formLogin h4 {
+  font-weight: 400;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+.container .formLogin h4 a {
+  color: #fff;
+}
+.container .formCadastro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+}
+.container .formCadastro input {
+  height: 50px;
+  padding-left: 10px;
+  width: 188%;
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  border: none;
+  color: #fff;
+}
+.container .formCadastro input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7607843137);
+}
+.container .formCadastro input::placeholder {
+  color: rgba(255, 255, 255, 0.7607843137);
+}
+.container .formCadastro #newEmail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .formCadastro #cadastrarBtn {
+  height: 50px;
+  margin-top: 30px;
+  width: 170%;
+  cursor: pointer;
+  background-color: #b6c0bb;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container .formCadastro #cadastrarBtn:hover {
+  background-color: #929c97;
+}
+.container hr {
+  width: 100%;
+}
+.container #registrarBtn {
+  height: 50px;
+  width: 77%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B5F77;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container #registrarBtn:hover {
+  background-color: #345469;
+}
+.container #voltarBtn {
+  height: 50px;
+  width: 74%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B5F77;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container #voltarBtn:hover {
+  background-color: #345469;
+}/*# sourceMappingURL=style.css.map */
